@@ -21,10 +21,10 @@ import (
 	"strings"
 	"sync"
 
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/microwe/protobuf-go/internal/encoding/messageset"
+	"github.com/microwe/protobuf-go/internal/errors"
+	"github.com/microwe/protobuf-go/internal/flags"
+	"github.com/microwe/protobuf-go/reflect/protoreflect"
 )
 
 // conflictPolicy configures the policy for handling registration conflicts.

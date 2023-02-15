@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"strings"
 
-	gengo "google.golang.org/protobuf/cmd/protoc-gen-go/internal_gengo"
-	"google.golang.org/protobuf/compiler/protogen"
-	"google.golang.org/protobuf/internal/detrand"
+	gengo "github.com/microwe/protobuf-go/cmd/protoc-gen-go/internal_gengo"
+	"github.com/microwe/protobuf-go/compiler/protogen"
+	"github.com/microwe/protobuf-go/internal/detrand"
 )
 
 func init() {

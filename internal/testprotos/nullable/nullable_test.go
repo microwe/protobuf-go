@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoimpl"
-	"google.golang.org/protobuf/testing/protocmp"
+	"github.com/microwe/protobuf-go/proto"
+	"github.com/microwe/protobuf-go/reflect/protoreflect"
+	"github.com/microwe/protobuf-go/runtime/protoimpl"
+	"github.com/microwe/protobuf-go/testing/protocmp"
 )
 
 func Test(t *testing.T) {

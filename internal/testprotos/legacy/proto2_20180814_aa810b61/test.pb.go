@@ -7,7 +7,7 @@
 
 package proto2_20180814_aa810b61 // import "google.golang.org/protobuf/internal/testprotos/legacy/proto2_20180814_aa810b61"
 
-import proto "google.golang.org/protobuf/internal/protolegacy"
+import proto "github.com/microwe/protobuf-go/internal/protolegacy"
 import fmt "fmt"
 import math "math"
 

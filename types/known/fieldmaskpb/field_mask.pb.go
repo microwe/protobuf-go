@@ -78,9 +78,9 @@
 package fieldmaskpb
 
 import (
-	proto "google.golang.org/protobuf/proto"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	proto "github.com/microwe/protobuf-go/proto"
+	protoreflect "github.com/microwe/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/microwe/protobuf-go/runtime/protoimpl"
 	reflect "reflect"
 	sort "sort"
 	strings "strings"

@@ -5,12 +5,12 @@
 package irregular
 
 import (
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/reflect/protodesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/microwe/protobuf-go/encoding/prototext"
+	"github.com/microwe/protobuf-go/reflect/protodesc"
+	"github.com/microwe/protobuf-go/reflect/protoreflect"
+	"github.com/microwe/protobuf-go/runtime/protoiface"
 
-	"google.golang.org/protobuf/types/descriptorpb"
+	"github.com/microwe/protobuf-go/types/descriptorpb"
 )
 
 type IrregularMessage struct {

@@ -7,13 +7,13 @@ package impl
 import (
 	"math/bits"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/microwe/protobuf-go/encoding/protowire"
+	"github.com/microwe/protobuf-go/internal/errors"
+	"github.com/microwe/protobuf-go/internal/flags"
+	"github.com/microwe/protobuf-go/proto"
+	"github.com/microwe/protobuf-go/reflect/protoreflect"
+	"github.com/microwe/protobuf-go/reflect/protoregistry"
+	"github.com/microwe/protobuf-go/runtime/protoiface"
 )
 
 var errDecode = errors.New("cannot parse invalid wire-format data")

@@ -8,9 +8,9 @@
 package annotation
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	descriptorpb "google.golang.org/protobuf/types/descriptorpb"
+	protoreflect "github.com/microwe/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/microwe/protobuf-go/runtime/protoimpl"
+	descriptorpb "github.com/microwe/protobuf-go/types/descriptorpb"
 	reflect "reflect"
 )
 

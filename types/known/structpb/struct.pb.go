@@ -120,9 +120,9 @@ package structpb
 
 import (
 	base64 "encoding/base64"
-	protojson "google.golang.org/protobuf/encoding/protojson"
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	protojson "github.com/microwe/protobuf-go/encoding/protojson"
+	protoreflect "github.com/microwe/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/microwe/protobuf-go/runtime/protoimpl"
 	math "math"
 	reflect "reflect"
 	sync "sync"

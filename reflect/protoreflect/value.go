@@ -4,7 +4,7 @@
 
 package protoreflect
 
-import "google.golang.org/protobuf/encoding/protowire"
+import "github.com/microwe/protobuf-go/encoding/protowire"
 
 // Enum is a reflection interface for a concrete enum value,
 // which provides type information and a getter for the enum number.
